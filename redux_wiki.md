@@ -2,7 +2,7 @@
 
 This is an example of how components are rendered and how they are updated with Redux within the OBIQ app.
 
-1. User navigates to [this link]
+1. User navigates to [this link](http://localhost:3000/obiq/data_collection_stages/60/edit)
 2. Hits the `DataCollectionStagesController#edit` action
     * `onboardiq_app/app/controllers/data_collection_stages_controller.rb`
     * Renders view template
