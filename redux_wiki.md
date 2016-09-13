@@ -16,7 +16,7 @@ This is an example of how components are rendered and how they are updated with 
         * Using `window.renderReactComponent()`, creates and renders two React components to their specified container
             * ```js
                 window.renderReactComponent(window.onboardiq.FormBuilderPreview, props, previewContainer)
-                ```
+              ```
             * onboardiq_app/front/components/form-builder/preview.jsx
             * onboardiq_app/front/components/form-builder/controls.jsx
 4. Click on the 'paragraph text' button
