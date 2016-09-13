@@ -10,11 +10,11 @@ This is an example of how components are rendered and how they are updated with 
 3. Coffeescript file converts the rendered HTML to a React component
     * `onboardiq_app/app/assets/javascripts/shared/form-builder.js.coffee`
     * Grabs the element
-        * ```sh
+        * ```js
             controlsContainer = document.querySelector('#js-form-builder-controls')
             ```
         * Using `window.renderReactComponent()`, creates and renders two React components to their specified container
-            * ```sh
+            * ```js
                 window.renderReactComponent(window.onboardiq.FormBuilderPreview, props, previewContainer)
                 ```
             * onboardiq_app/front/components/form-builder/preview.jsx
