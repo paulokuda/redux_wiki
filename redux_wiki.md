@@ -11,10 +11,10 @@ This is an example of how components are rendered and how they are updated with 
           * < div
               id="js-form-builder-data"
               class="funnels-layout"
-              data-form="<%= @form.to_json %>"
-              data-groups="<%= @groups.to_json %>"
-              data-save-url="<%= @data_collection_stage_path(@stage) %>"
-              data-method="patch" >
+              **data-form="<%= @form.to_json %>"**
+              **data-groups="<%= @groups.to_json %>"**
+              **data-save-url="<%= @data_collection_stage_path(@stage) %>"**
+              **data-method="patch"** >
 
 3. Coffeescript file converts the rendered HTML to a React component
     * `onboardiq_app/app/assets/javascripts/shared/form-builder.js.coffee`
